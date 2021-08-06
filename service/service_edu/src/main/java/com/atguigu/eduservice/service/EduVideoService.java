@@ -17,4 +17,5 @@ import java.util.List;
  */
 public interface EduVideoService extends IService<EduVideo> {
 
+    void removeVideoByCourseId(String courseId);
 }
